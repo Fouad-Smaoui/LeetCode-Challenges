@@ -4,8 +4,10 @@
                                                 Approach Used  : Array Traversal
                                                 Time Complexity: (O(n)) 
                                                 ------------------------------*/ 
-// 
+
 // we don't need BFS or DFS, We just have to calculate cost to move between homePos[0] and startPos[0] rows. and homePos[1] and startPos[1] columns
+
+
 class Solution {
 public:
     int minCost(vector<int>& startPos, vector<int>& homePos, vector<int>& rowCosts, vector<int>& colCosts) 
