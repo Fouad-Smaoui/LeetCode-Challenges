@@ -9,7 +9,9 @@
  */
 
 class Solution {
+    
 public:
+    
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
         
         if (p->val < root->val && q->val < root->val){
@@ -28,9 +30,6 @@ public:
         
         
     }
-    
-
-    
-    
+     
     
 };
